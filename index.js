@@ -16,4 +16,6 @@ function save() {
 
 function clearEntries() {
     saveEl.textContent = "Previous entries: "
+    countEl.textContent = 0
+    count = 0
 }
